@@ -155,7 +155,7 @@ export function Workspace() {
                             </div>
                         </div>
                         <div className="relative m-2 ">
-                            <div className="absolute bottom-60 w-full h-8 bg-red-500 rounded-lg">
+                            <div className="absolute bottom-44 w-full h-8 bg-red-500 rounded-lg">
                                 <div className="text-center p-1 text-white">
                                     Este atendimento foi encerrado por Lionel Messi
                                 </div>
