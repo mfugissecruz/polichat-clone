@@ -11,7 +11,7 @@ export function Header(){
     const { isDark } = useTheme()
 
     return (
-        <header className="p-2 h-[67px] border-b-2 text-gray-800 dark:text-gray-100 dark:border-b-2 dark:border-[#454f66]">
+        <header className="p-2 h-[60px] border-b-2 text-gray-800 dark:text-gray-100 dark:border-b-2 dark:border-[#454f66]">
             <div className="mx-8 h-full flex items-center justify-between">
                 { isDark? <img src={ logo } alt="Logo da Poli" /> : <img src={logoDark} alt="Logo da Poli" />}
                 <div className="bg-gray-600 text-gray-100 w-10 h-10 rounded-full hidden 2xl:flex items-center justify-center">

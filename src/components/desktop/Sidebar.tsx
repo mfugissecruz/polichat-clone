@@ -5,7 +5,7 @@ export function Sidebar() {
     return (
         <div className="h-screen w-20">
             <aside className="w-20 h-full bg-gray-100 border-gray-300 border-r dark:border-r-2 dark:bg-[#232c3d] dark:border-[#454f66]" aria-label="Sidebar">
-            <div className="h-[67px] w-20 flex justify-center border-b border-gray-300 dark:border-b-2 dark:border-[#454f66]">
+            <div className="h-[60px] w-20 flex justify-center border-b border-gray-300 dark:border-b-2 dark:border-[#454f66]">
                 <img src={logo} alt="Polichat logo" className="m-4" />
             </div>
 
