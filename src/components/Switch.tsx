@@ -3,11 +3,9 @@ import { useTheme } from "../hooks/useTheme"
 
 export function SwitchToggle() {
     const { isDark, setIsDark } = useTheme()
-
     function handleToggleTheme(){
         setIsDark(!isDark)
     }
-
     return(
         <div>
             { 

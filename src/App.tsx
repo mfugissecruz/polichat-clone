@@ -3,7 +3,6 @@ import { ThemeProvider } from './hooks/useTheme';
 import { Router } from './Router';
 
 export function App() {
-
   return (
     <ThemeProvider>
       <BrowserRouter>

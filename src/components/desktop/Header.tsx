@@ -11,25 +11,25 @@ export function Header(){
     const { isDark } = useTheme()
 
     return (
-        <header className="p-2 h-[67px] border-b-2 dark:border-b-2 dark:border-[#454f66]">
+        <header className="p-2 h-[67px] border-b-2 text-gray-800 dark:text-gray-100 dark:border-b-2 dark:border-[#454f66]">
             <div className="mx-8 h-full flex items-center justify-between">
                 { isDark? <img src={ logo } alt="Logo da Poli" /> : <img src={logoDark} alt="Logo da Poli" />}
                 <div className="bg-gray-600 text-gray-100 w-10 h-10 rounded-full hidden 2xl:flex items-center justify-center">
                     <span>MC</span>
                 </div>
-                <div className="hidden 2xl:flex items-center justify-between text-white w-40">
+                <div className="hidden 2xl:flex items-center justify-between dark:text-white w-40">
                     <span>Poli</span>
-                    <CaretDown size={18} color="#fff"/>
+                    <CaretDown size={18}/>
                 </div>
                 <div className="hidden 2xl:flex items-center justify-between w-64">
                     <div className="flex items-center gap-2">
                         <WhatsappLogo size={24} color="#20927c" weight="fill" />
                         <div >
-                            <span className="block text-white">Canal SDR 0001</span>
+                            <span className="block text-gray-700 dark:text-white">Canal SDR 0001</span>
                             <span className="text-[#20927c]"><span className="text-yellow-500">90</span>/100 SDR 0001</span>
                         </div>
                     </div>
-                    <CaretDown size={18} color="#fff"/>
+                    <CaretDown size={18}/>
                 </div>
                 <div>
                     <button className="bg-yellow-500 rounded-lg text-gray-50 p-3">

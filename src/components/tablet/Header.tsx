@@ -50,7 +50,7 @@ export function Header() {
                     </ul>
                 </div>
                 <div>
-                    <button className="bg-yellow-500 rounded-lg text-gray-50 p-3">
+                    <button className="bg-yellow-500 rounded-lg text-gray-50 p-3 min-w-fit">
                         Indique e ganhe
                     </button>
                 </div>

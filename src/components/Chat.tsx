@@ -31,7 +31,7 @@ export function Chat(){
                             <div className="absolute left-0 items-end">
                                 <div className="flex">
                                     <div className="w-[72px]">
-                                        <div className="w-[60px] h-[60px] m-1 rounded-full overflow-hidden flex">
+                                        <div className="w-[60px] h-[60px] m-1 rounded-full overflow-hidden flex ">
                                             <img src={userImg} alt="user-name" className="object-cover"/>
                                         </div>
                                     </div>
